@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/roxblnfk/skills/master/resources/skills.schema.json",
+    "target": ".agents/skills",
+    "aliases": [".claude/skills"],
+    "dependencies": {
+        "composer": false
+    },
+    "sources": [
+        {
+            "from": "gitlab",
+            "host": "https://git.drupalcode.org",
+            "package": "project/ai_best_practices",
+            "ref": "1.0.x"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "kalamuna/composer-skills-installer-example",
+    "description": "An example of installing Drupal AI Best Practices AI Agent Skills with Composer through the llm/skills Composer plugin.",
+    "type": "project",
+    "license": "MIT",
+    "require-dev": {
+        "llm/skills": "^1.16"
+    },
+    "config": {
+        "allow-plugins": {
+            "llm/skills": true
+        },
+        "sort-packages": true
+    }
+}
